@@ -6,6 +6,6 @@ echo "git" beleírása a readme.md fájlba
 ls #list mappa listázása
 git init #könyvtár inicializálása Git mappává
 git config --global --list #a globális beállítások listázása
-git status
+git status #jelenlegi munkafolyamat állapota
 git add readme.md #readme.md változtatásainak staging-elése
 git commit -m #összes staging commitolása "First Commit üzenettel"
