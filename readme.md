@@ -9,3 +9,7 @@ git config --global --list #a globális beállítások listázása
 git status #jelenlegi munkafolyamat állapota
 git add readme.md #readme.md változtatásainak staging-elése
 git commit -m #összes staging commitolása "First Commit üzenettel"
+git remote add origin (link) # origin néven hozzáadja a címben lévő repot.
+git remote -v #ellenőrizzük a távoli repokat
+git remote remove origin #Az origin nevű távoli repo eltávolítása
+git push -u origin master #új branch esetén használjuk
